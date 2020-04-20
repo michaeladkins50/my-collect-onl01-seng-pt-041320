@@ -4,14 +4,14 @@ def my_collect(array)
   i = 0
 if array == languages
   while i < array.length
-      languages do|language| yield = language.upcase
+      languages do|language| collection = language.upcase
         end
         i += 1
       end
   end
 if array == students
   while i < students.length
-    students do|student| yield = student.split(" ").first
+    students do|student| collection = student.split(" ").first
     end
     i += 1
   end
