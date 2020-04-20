@@ -11,7 +11,7 @@ if array == languages
   end
 if array == students
   while i < students.length
-    students do|student| collection << student.split(" ").first
+    students do|student| yield = student.split(" ").first
     end
     i += 1
   end
