@@ -4,7 +4,7 @@ def my_collect(array)
   i = 0
 if array == languages
   while i < array.length
-      languages do|language| collection = language.upcase
+      languages do|language| collection = yield(language.upcase)
         end
         i += 1
       end
